@@ -1,7 +1,6 @@
 const Nightmare = require('nightmare');
-var nightmare = new Nightmare({show: true, typeInterval: 75, pollInterval: 250});
 var bot = "159985870458322944"; // The discordbots.org ID of the bot you want to upvote
-// IDEA: CLI with bot ID?
+// IDEA: CLI with bot ID / login info?
 
 var email = "your@email.com";
 var password = "y0uRpAsswRdHERE";
@@ -9,9 +8,11 @@ var password = "y0uRpAsswRdHERE";
 // IDEA: Add option to cycle through multiple accounts via array/txt doc
 // NOTE: Creating accounts is probably out of scope. Different project / post other?
 //       TODO: TEST WITH TEMP EMAIL!
-run();
+run(); // So it runs once at first
+setInterval(run, 43260000); // 12 hours and 1 minute in millisecond form (43260000)
 
 function run() {
+  var nightmare = new Nightmare({show: true, typeInterval: 75, pollInterval: 250});
   nightmare
     .goto('http://discordbots.org/bot/' + bot + '/vote')
     .wait('#votingvoted')
