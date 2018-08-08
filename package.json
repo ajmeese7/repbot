@@ -1,0 +1,26 @@
+{
+  "name": "repbot",
+  "version": "1.0.0",
+  "description": "A discordbot.org bot upvoter",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajmeese7/repbot"
+  },
+  "dependencies": {
+    "nightmare": "3.0.1"
+  },
+  "engines": {
+    "node": ">=4.0"
+  },
+  "keywords": [
+    "nightmare",
+    "discord",
+    "bot"
+  ],
+  "author": "Aaron Meese",
+  "license": "MIT"
+}
