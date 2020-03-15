@@ -13,7 +13,8 @@
   "dependencies": {
     "nightmare": "3.0.1",
     "lodash": ">=4.17.13",
-    "electron": ">=1.8.8"
+    "electron": ">=1.8.8",
+    "minimist": ">=1.2.2"
   },
   "engines": {
     "node": ">=4.0"
