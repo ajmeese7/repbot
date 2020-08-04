@@ -1,5 +1,19 @@
 # repbot
-Bot for artificially influencing rankings on top.gg
+<p align="center">
+  <img alt="Demonstration GIF" src="https://user-images.githubusercontent.com/17814535/89352152-1c282000-d679-11ea-8cac-58977874ae2f.gif">
+  
+  <h3 align="center">✨Top.gg Repbot✨</h3>
+</p>
+
+----
+
+<p align="center">
+   <img src="https://img.shields.io/badge/language-javascript-blue?color=FF69B4"/>
+   <img src="https://img.shields.io/github/license/ajmeese7/repbot"/>
+   <img src="https://img.shields.io/github/stars/ajmeese7/repbot"/>
+   <img src="https://img.shields.io/github/forks/ajmeese7/repbot"/>
+   <img src="https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99" alt="Star Badge"/>
+</p>
 
 ### Usage
 To use the program, go to [top.gg](https://top.gg) and find the bot
@@ -11,8 +25,7 @@ In the below link, the ID is `159985870458322944`, which belongs to mee6:
 
 Once you have copied the ID, paste it as the value for the `bot` variable in
 `start.js`. You must also paste your Discord login credentials in the `email`
-and `password` variables. As this is open source, you can tell that there is no
-possible way that I can steal your login information, so don't freak out.
+and `password` variables.
 
 This will only work if the correct login information is provided, so make sure
 you know your email and password before running the program. If the information
