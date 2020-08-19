@@ -1,6 +1,5 @@
 const Nightmare = require('nightmare');
 var bot = "159985870458322944"; // The discordbots.org ID of the bot you want to upvote
-// IDEA: CLI with bot ID / login info?
 
 var email = "your@email.com";
 var password = "y0uRpAsswRdHERE";

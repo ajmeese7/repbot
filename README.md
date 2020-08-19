@@ -35,3 +35,7 @@ I recommend running this on a device like a Raspberry Pi, since you can have it
 running at all times cheaply. The program will **NOT** continue running if you
 turn off your device. You must manually restart the program if your device is
 powered off.
+
+## TODO
+- Add in a simple CLI for the bot name/ID that you want to upvote
+  - Can also pass login info via CLI
