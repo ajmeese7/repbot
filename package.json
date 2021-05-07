@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "nightmare": "3.0.1",
-    "lodash": ">=4.17.19",
+    "lodash": ">=4.17.21",
     "electron": ">=9.4.0",
     "minimist": ">=1.2.2"
   },
