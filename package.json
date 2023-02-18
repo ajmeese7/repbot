@@ -11,9 +11,9 @@
     "url": "https://github.com/ajmeese7/repbot"
   },
   "dependencies": {
-    "nightmare": "3.0.1",
+    "nightmare": "3.0.2",
     "lodash": ">=4.17.21",
-    "electron": ">=15.5.5",
+    "electron": ">=22.0.0",
     "minimist": ">=1.2.6"
   },
   "engines": {
